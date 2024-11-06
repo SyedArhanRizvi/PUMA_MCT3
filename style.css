@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+}
+.main {
+    width: 100vw;
+    position: relative;
+}
+.main .nav1{
+    width: 100%;
+    display: flex;
+    height: 3rem;
+    background: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.main .nav2 {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background: #101010;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.main .nav2 div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.main .nav2 div p {
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.main .nav2 div .seacrh{
+    padding: 10px 40px;
+    border: 1px solid silver;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main .nav2 div .seacrh:hover{
+    background: yellowgreen;
+    color: black;
+    border: 1px solid yellowgreen;
+}
+.main .s1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+.main .s1 .fontDisc{
+    width: 100%;
+    height: 15vh;
+    background: rgb(44, 55, 135);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.main .s1 .virat{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://d16f573ilcot6q.cloudfront.net/wp-content/uploads/2024/02/136-3-2.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main .s1 .virat .forBG {
+    background: #00000053;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 50px; */
+    padding-left: 12px;
+}
+.main .s1 .virat .forBG div{
+    width: 40%;
+    height: 50%;
+    /* color: rgb(255, 9, 9); */
+    /* border: 1px solid red; */
+}
+.main .s1 .virat .forBG div h1{
+    font-size: 4rem;
+}
+.main .s1 .virat .forBG div p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.main .s1 .virat .forBG div .btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.main .s1 .virat .forBG div .btns button {
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    transition: 0.5s;
+}
+.main .s1 .virat .forBG div .btns button:hover {
+    background: #000;
+    color: white;
+    cursor: pointer;
+}
+.main .s1 .lastPrice{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.puma-catchup.com/wp-content/uploads/2023/10/PUMA-Dive-Virat-Kahli.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .s1 .lastPrice div {
+    background: #00000062;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    gap: 10px;
+}
+.main .s1 .lastPrice div h1 {
+    font-size: 3rem;
+}
+.main .s1 .lastPrice div p {
+    font-size: 1.5rem;
+}
+.main .s1 .lastPrice div button {
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.main .s1 .lastPrice div button:hover{
+    background: #000;
+    color: white;
+}
+.main .s2 {
+    width: 100%;
+    height: 80vh;
+    background: rgb(192, 192, 192);
+    display: flex;
+    margin-bottom: 180px;
+    /* position: relative; */
+}
+.main .s2 .videoPart {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.main .s2 .videoPart div{
+    width: 100%;
+    padding-left: 30px;
+}
+.main .s2 .videoPart div h1{
+    font-size: 3rem;
+}
+.main .s2 .videoPart div p {
+    font-size: 1.5rem;
+}
+.main .s2 .videoPart div button{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.main .s2 .videoPart div button:hover{
+    background: #000;
+    color: white;
+}
+.main .s2 .videoPart .videoContainer{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid yellow; */
+    position: relative;
+    margin-top: 20px;
+}
+.main .s2 .videoPart .videoContainer img{
+    position: absolute;
+    right: -70px;
+    z-index: 500;
+    height: 90%;
+    width: 100%;
+}
+.main .s2 .bigImg{
+    width: 45%;
+    height: 100%;
+    position: relative;
+    
+}
+.main .s2 .bigImg img{
+    height: 120%;
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+    right: -50px;
+}
+.main 

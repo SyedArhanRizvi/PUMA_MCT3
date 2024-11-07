@@ -1,5 +1,7 @@
 # Puma Website - HTML & CSS
+# [PUMA MCT3 Website](https://syedarhanrizvi.github.io/PUMA_MCT3/)
 
+Welcome to the PUMA MCT3 Website repository! This project is designed to showcase a responsive and user-friendly Puma-inspired website. Click the link above to visit the live site.
 This repository contains the HTML and CSS code for a simple e-commerce landing page for **Puma**. The page showcases Puma's products, promotions, and collaborations with various celebrities and influencers. The layout features multiple sections with promotional banners, product highlights, brand collaborations, and recommended items.
 
 ## Table of Contents

@@ -576,11 +576,10 @@ body {
     bottom: -10px;
 
 }
-/* General Footer Styles */
 footer {
-    background-color: #1c1c1c;  /* Dark background */
-    color: #fff;               /* White text */
-    padding: 40px 0;           /* Top and Bottom Padding */
+    background-color: #1c1c1c;  
+    color: #fff;               
+    padding: 40px 0;        
   }
   
   .f2 {
@@ -615,13 +614,10 @@ footer {
     font-size: 16px;
     margin-bottom: 10px;
   }
-  
-  /* Styling for empty section (adjust space accordingly) */
   .f-section.empty {
-    flex-grow: 1; /* Take up remaining space */
+    flex-grow: 1; 
   }
   
-  /* Responsive Design */
   @media (max-width: 1024px) {
     .f2 {
       flex-direction: column;
@@ -649,7 +645,6 @@ footer {
     }
   }
   
-  /* Optional: Footer Bottom Section for links like social media and legal info */
   footer .f1 {
     background-color: #333;
     padding: 20px;
